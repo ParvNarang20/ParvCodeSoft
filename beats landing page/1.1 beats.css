@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body{
+    background-color: #0f0f10;
+   
+}
+
+nav li{
+    margin: 30px 150px;
+    display: flex;
+}
+
+nav ul a{
+    padding: 20px;
+    position: relative;
+    bottom: 80px;
+    left: 650px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+.shop{
+    position: absolute;
+    top: 25px;
+    right: 245px;
+    color: white;
+    background-color: #1e1e21;
+    height: 35px;
+    width: 85px;
+    font-weight: 300;
+    border-radius: 7px;
+    border: 1px solidrgb(78, 78, 78)e;
+}
+
+.main{
+    position: absolute;
+    left: 250px;
+    top: -80px;
+   
+    
+}
+.grey{
+    color: rgb(201, 199, 199);
+    font-weight: 80;
+}
+
+.content{
+    position: relative;
+    top: 20px;
+    left: 600px;
+    color: white;
+}
+
+.content img{
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.bag{
+    position: relative;
+    top: 45px;
+    left: 600px;
+    color: white;
+   background-color: rgb(34, 34, 34);
+   width: 220px;
+    padding-bottom: 4px;
+   height: 40px;
+   border-radius: 10px;
+   
+}
+
+.bag img{
+    position: relative;
+    top: 8px;
+    left: 7px;
+}
+
+.bag p{
+    position: relative;
+    bottom: 18px;
+    left: 39px;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+.bag p span{
+    font-weight: 600;
+    padding: 18px;
+}
+
+.social img{
+    position: relative;
+    top: 70px;
+    left: 240px;
+padding: 70px;
+}
+
+.specs{
+    position: relative;
+    left: 780px;
+    top: 90px;
+}
+
+.middle{
+    position: relative;
+    left: 620px;
+     top: 70px;
+}
+
+.specifications{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    left: 390px;
+    
+}
+
+.conn{
+    position: relative;
+    left: 110px;
+    bottom: 60px;
+}
+
+.batt{
+    position: relative;
+    left: 30px;
+    bottom: 60px;
+}
+
+.load{
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+}
+
+.micro{
+    position: relative;
+    left: 90px;
+    bottom: 1px;
+}
+
+.conn p{
+    font-weight: bolder;
+}
+.conn span{
+   color: #c6c6c6;
+   font-size: 12px;
+}
+
+.batt p{
+    font-weight: bolder;
+}
+.batt span{
+   color: #c6c6c6;
+   font-size: 12px;
+}
+
+
+.load p{
+    font-weight: bolder;
+}
+
+.load span{
+   color: #c6c6c6;
+   font-size: 12px;
+}
+
+
+.micro p{
+    font-weight: bolder;
+}
+.micro span{
+   color: #c6c6c6;
+   font-size: 12px;
+}
+
+.case{
+    margin: 0px 320px;
+}
+
+.caseimg{
+    display: flex;
+    margin: 80px 440px;
+}
+
+.caseimg p{
+    color: rgb(189,192,194);
+ position: relative;
+ top: 100px;
+ left: 60px;
+}
+
+.group{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(30,30,33);
+    width: 110px;
+    height: 20px;
+    border-radius: 10px;
+     position: relative;
+    bottom: 300px;
+    left: 800px;
+}
+
+.space{
+    color: white;
+    background-color: rgb(24,26,27);
+    width: 1000px;
+    border-radius: 20px;
+    height: 300px;
+    margin: 0px 210px;
+}
+
+.space p span{
+    color: #828282;
+    padding: 50px;
+    position: relative;
+    top: 90px;
+    left: 50px;
+    padding-bottom: 600px;
+    padding-top: 600px;
+}
+
+.paaa{
+    position: relative;
+    top: 70px;
+    left: 98px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.photo{
+    padding: 0px 600px;
+    padding-bottom: 300px;
+    position: relative;
+    bottom: 64px;
+    right: 100px;
+}
+
+.addto{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    position: relative;
+    bottom: 440px;
+    left: 100px;
+    background-color: rgb(0,0,0);
+    width: 100px;
+    height: 20px;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.style{
+    margin: 100px 570px;
+}
+
+.cchhrr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 50%;
+   
+}
+
+.headphones{
+    color: white;
+   /* display: flex; */
+    font-size: 12px;
+    background-color: rgb(24,26,27);
+    height: 120px;
+    width: 125px;
+    position: relative;
+    bottom: 10px;
+    left: 339px;
+}
+
+.blackhead{
+    position: relative;
+    bottom: 38px;
+    left: 20px;
+}
+
+.headphones p{
+    position: relative;
+    bottom: 27px;
+    left: 12px;
+}
+
+.headphones p span{
+    color: rgb(189,192,194);
+}
+
+.bagg{
+    position: relative;
+    bottom: 61px;
+    left: 90px;
+    background-color: #0f0f10;
+    height: 20px;
+    width: 20px;
+}
+
+.last{
+    display: flex;
+    margin: 100px 209px;
+   gap: 220px;
+    
+}
+
+.last a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 25px; */
+}
+
+.lastline ul li a{
+    text-decoration: none;
+    color: rgb(188,191,193);
+list-style: none;
+position: relative;
+bottom: 87px;
+left: 460px;
+font-size: 14px;
+    
+}
+
+.linebottom ul li a{
+    text-decoration: none;
+    color: rgb(188,191,193);
+    margin: 100px 209px;
+    position: relative;
+    bottom: 185px;
+left: 540px; 
+font-size: 14px;
+}
+
+.email input{
+ background-color: rgb(24,26,27);
+ border: none;
+ padding: 10px;
+}
+
+.email{
+    background-color: rgb(24,26,27);
+    width: 290px;
+    height: 50px;
+    border-radius: 16px;
+    position: relative;
+    bottom: 320px;
+    left: 1090px;
+}
+
+.email p{
+position: relative;
+bottom: 35px;
+left: 140px;
+border-radius: 10px;
+width: 110px;
+height: 20px;
+background-color: #0f0f10;
+color: white;
+padding: 10px;
+}
+
+
+.socialmedia{
+   position: relative;
+   bottom: 280px;
+   display: flex;
+   gap: 30px;
+    left: 1100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
